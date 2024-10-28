@@ -43,7 +43,12 @@ nav {
         color:whitesmoke;
     }
     img {
-        width: 200px;
+        width: 150px;
         height: 150px;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
