@@ -4,7 +4,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     font-weight: 300;
-    color: darkblue;
+    color: blue;
     margin-left: 10%;
     margin-right: 10%;
     border-image-width: 0%;
@@ -18,5 +18,30 @@ h2{
     
 }
 nav {
-    color: hotpink;
+    color: babypink;
 }
+@media screen (min-width :360px) and (min-height:640) {
+    body{
+    
+        background-color:rgb(238, 219, 231);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+        font-weight: 300;
+        color: blue;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-image-width: 0%;
+        
+    
+    }
+    h2{ 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+        color: brown;
+        
+    }
+    nav {
+        color: babypink;
+    }
+
+]
