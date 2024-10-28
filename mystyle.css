@@ -21,7 +21,7 @@ h2{
 nav {
     color: babypink;
 }
-@media screen and (max-width :360px) and (max-height:640px) {
+@media screen and (min-width :360px) and (min-height:640px) {
     body{
     
         background-color: whitesmoke;
@@ -50,5 +50,15 @@ nav {
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
+    img{
+        display: flex;
+        justify-content: center;   
+    }
+    video{
+        height: 200px;
+        width: 300px;
+    }
+
 }
